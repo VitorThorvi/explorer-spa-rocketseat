@@ -1,4 +1,4 @@
-class Router {
+export class Router {
     routes = {}
 
     add(routeName, page) {
@@ -30,4 +30,4 @@ class Router {
     }
 }
 
-export default new Router()
+// export default new Router()
